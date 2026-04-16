@@ -120,7 +120,7 @@
 
             <!-- common 的依赖配置-->
             <dependency>
-                <groupId>org.dromara</groupId>
+                <groupId>com.pinenuts</groupId>
                 <artifactId>ruoyi-common-bom</artifactId>
                 <version>${revision}</version>
                 <type>pom</type>
@@ -240,7 +240,7 @@
             </dependency>
             <!--短信sms4j-->
             <dependency>
-                <groupId>org.dromara.sms4j</groupId>
+                <groupId>com.pinenuts.sms4j</groupId>
                 <artifactId>sms4j-spring-boot-starter</artifactId>
                 <version>${sms4j.version}</version>
             </dependency>
@@ -296,12 +296,12 @@
 
             <!-- Warm-Flow国产工作流引擎, 在线文档：http://warm-flow.cn/ -->
             <dependency>
-                <groupId>org.dromara.warm</groupId>
+                <groupId>com.pinenuts.warm</groupId>
                 <artifactId>warm-flow-mybatis-plus-sb3-starter</artifactId>
                 <version>${warm-flow.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.dromara.warm</groupId>
+                <groupId>com.pinenuts.warm</groupId>
                 <artifactId>warm-flow-plugin-ui-sb-web</artifactId>
                 <version>${warm-flow.version}</version>
             </dependency>
@@ -327,32 +327,32 @@
             </dependency>
 
             <dependency>
-                <groupId>org.dromara</groupId>
+                <groupId>com.pinenuts</groupId>
                 <artifactId>ruoyi-system</artifactId>
                 <version>${revision}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.dromara</groupId>
+                <groupId>com.pinenuts</groupId>
                 <artifactId>ruoyi-job</artifactId>
                 <version>${revision}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.dromara</groupId>
+                <groupId>com.pinenuts</groupId>
                 <artifactId>ruoyi-generator</artifactId>
                 <version>${revision}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.dromara</groupId>
+                <groupId>com.pinenuts</groupId>
                 <artifactId>ruoyi-demo</artifactId>
                 <version>${revision}</version>
             </dependency>
 
             <!--  工作流模块  -->
             <dependency>
-                <groupId>org.dromara</groupId>
+                <groupId>com.pinenuts</groupId>
                 <artifactId>ruoyi-workflow</artifactId>
                 <version>${revision}</version>
             </dependency>
