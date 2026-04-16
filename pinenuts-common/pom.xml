@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>pinenuts-vue-plus</artifactId>
+        <groupId>com.pinenuts</groupId>
+        <version>${revision}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <modules>
+        <module>pinenuts-common-bom</module>
+        <module>pinenuts-common-social</module>
+        <module>pinenuts-common-core</module>
+        <module>pinenuts-common-doc</module>
+        <module>pinenuts-common-excel</module>
+        <module>pinenuts-common-idempotent</module>
+        <module>pinenuts-common-job</module>
+        <module>pinenuts-common-log</module>
+        <module>pinenuts-common-mail</module>
+        <module>pinenuts-common-mybatis</module>
+        <module>pinenuts-common-oss</module>
+        <module>pinenuts-common-ratelimiter</module>
+        <module>pinenuts-common-redis</module>
+        <module>pinenuts-common-satoken</module>
+        <module>pinenuts-common-security</module>
+        <module>pinenuts-common-sms</module>
+        <module>pinenuts-common-web</module>
+        <module>pinenuts-common-translation</module>
+        <module>pinenuts-common-sensitive</module>
+        <module>pinenuts-common-json</module>
+        <module>pinenuts-common-encrypt</module>
+        <module>pinenuts-common-tenant</module>
+        <module>pinenuts-common-websocket</module>
+        <module>pinenuts-common-sse</module>
+    </modules>
+
+    <artifactId>pinenuts-common</artifactId>
+    <packaging>pom</packaging>
+
+    <description>
+        common 通用模块
+    </description>
+
+</project>

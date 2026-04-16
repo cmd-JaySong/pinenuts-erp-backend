@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.pinenuts</groupId>
+        <artifactId>pinenuts-modules</artifactId>
+        <version>${revision}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>pinenuts-system</artifactId>
+
+    <description>
+        system系统模块
+    </description>
+
+    <dependencies>
+        <!-- 通用工具-->
+        <dependency>
+            <groupId>com.pinenuts</groupId>
+            <artifactId>pinenuts-common-core</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.pinenuts</groupId>
+            <artifactId>pinenuts-common-doc</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.pinenuts</groupId>
+            <artifactId>pinenuts-common-mybatis</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.pinenuts</groupId>
+            <artifactId>pinenuts-common-translation</artifactId>
+        </dependency>
+
+        <!-- OSS功能模块 -->
+        <dependency>
+            <groupId>com.pinenuts</groupId>
+            <artifactId>pinenuts-common-oss</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.pinenuts</groupId>
+            <artifactId>pinenuts-common-log</artifactId>
+        </dependency>
+
+        <!-- excel-->
+        <dependency>
+            <groupId>com.pinenuts</groupId>
+            <artifactId>pinenuts-common-excel</artifactId>
+        </dependency>
+
+        <!-- SMS功能模块 -->
+        <dependency>
+            <groupId>com.pinenuts</groupId>
+            <artifactId>pinenuts-common-sms</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.pinenuts</groupId>
+            <artifactId>pinenuts-common-tenant</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.pinenuts</groupId>
+            <artifactId>pinenuts-common-security</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.pinenuts</groupId>
+            <artifactId>pinenuts-common-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.pinenuts</groupId>
+            <artifactId>pinenuts-common-idempotent</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.pinenuts</groupId>
+            <artifactId>pinenuts-common-sensitive</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.pinenuts</groupId>
+            <artifactId>pinenuts-common-encrypt</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.pinenuts</groupId>
+            <artifactId>pinenuts-common-websocket</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.pinenuts</groupId>
+            <artifactId>pinenuts-common-sse</artifactId>
+        </dependency>
+
+    </dependencies>
+
+</project>

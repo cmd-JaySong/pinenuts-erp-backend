@@ -98,9 +98,9 @@ services:
     privileged: true
     network_mode: "host"
 
-  ruoyi-server1:
-    image: ruoyi/ruoyi-server:5.6.0
-    container_name: ruoyi-server1
+  pinenuts-server1:
+    image: ruoyi/pinenuts-server:5.6.0
+    container_name: pinenuts-server1
     environment:
       # 时区上海
       TZ: Asia/Shanghai
@@ -114,9 +114,9 @@ services:
     privileged: true
     network_mode: "host"
 
-  ruoyi-server2:
-    image: ruoyi/ruoyi-server:5.6.0
-    container_name: ruoyi-server2
+  pinenuts-server2:
+    image: ruoyi/pinenuts-server:5.6.0
+    container_name: pinenuts-server2
     environment:
       # 时区上海
       TZ: Asia/Shanghai
@@ -130,9 +130,9 @@ services:
     privileged: true
     network_mode: "host"
 
-  ruoyi-monitor-admin:
-    image: ruoyi/ruoyi-monitor-admin:5.6.0
-    container_name: ruoyi-monitor-admin
+  pinenuts-monitor-admin:
+    image: ruoyi/pinenuts-monitor-admin:5.6.0
+    container_name: pinenuts-monitor-admin
     environment:
       # 时区上海
       TZ: Asia/Shanghai
@@ -142,9 +142,9 @@ services:
     privileged: true
     network_mode: "host"
 
-  ruoyi-snailjob-server:
-    image: ruoyi/ruoyi-snailjob-server:5.6.0
-    container_name: ruoyi-snailjob-server
+  pinenuts-snailjob-server:
+    image: ruoyi/pinenuts-snailjob-server:5.6.0
+    container_name: pinenuts-snailjob-server
     environment:
       # 时区上海
       TZ: Asia/Shanghai

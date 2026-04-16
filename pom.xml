@@ -121,7 +121,7 @@
             <!-- common 的依赖配置-->
             <dependency>
                 <groupId>com.pinenuts</groupId>
-                <artifactId>ruoyi-common-bom</artifactId>
+                <artifactId>pinenuts-common-bom</artifactId>
                 <version>${revision}</version>
                 <type>pom</type>
                 <scope>import</scope>
@@ -328,32 +328,32 @@
 
             <dependency>
                 <groupId>com.pinenuts</groupId>
-                <artifactId>ruoyi-system</artifactId>
+                <artifactId>pinenuts-system</artifactId>
                 <version>${revision}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.pinenuts</groupId>
-                <artifactId>ruoyi-job</artifactId>
+                <artifactId>pinenuts-job</artifactId>
                 <version>${revision}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.pinenuts</groupId>
-                <artifactId>ruoyi-generator</artifactId>
+                <artifactId>pinenuts-generator</artifactId>
                 <version>${revision}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.pinenuts</groupId>
-                <artifactId>ruoyi-demo</artifactId>
+                <artifactId>pinenuts-demo</artifactId>
                 <version>${revision}</version>
             </dependency>
 
             <!--  工作流模块  -->
             <dependency>
                 <groupId>com.pinenuts</groupId>
-                <artifactId>ruoyi-workflow</artifactId>
+                <artifactId>pinenuts-workflow</artifactId>
                 <version>${revision}</version>
             </dependency>
 
@@ -361,10 +361,10 @@
     </dependencyManagement>
 
     <modules>
-        <module>ruoyi-admin</module>
-        <module>ruoyi-common</module>
-        <module>ruoyi-extend</module>
-        <module>ruoyi-modules</module>
+        <module>pinenuts-admin</module>
+        <module>pinenuts-common</module>
+        <module>pinenuts-extend</module>
+        <module>pinenuts-modules</module>
     </modules>
     <packaging>pom</packaging>
 
