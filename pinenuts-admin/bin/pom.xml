@@ -46,50 +46,50 @@
 <!--        </dependency>-->
 
         <dependency>
-            <groupId>com.pinenuts.boot</groupId>
+            <groupId>com.pinenuts</groupId>
             <artifactId>pinenuts-common-doc</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>com.pinenuts.boot</groupId>
+            <groupId>com.pinenuts</groupId>
             <artifactId>pinenuts-common-social</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>com.pinenuts.boot</groupId>
+            <groupId>com.pinenuts</groupId>
             <artifactId>pinenuts-common-ratelimiter</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>com.pinenuts.boot</groupId>
+            <groupId>com.pinenuts</groupId>
             <artifactId>pinenuts-common-mail</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>com.pinenuts.boot</groupId>
+            <groupId>com.pinenuts</groupId>
             <artifactId>pinenuts-system</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>com.pinenuts.boot</groupId>
+            <groupId>com.pinenuts</groupId>
             <artifactId>pinenuts-job</artifactId>
         </dependency>
 
         <!-- 代码生成-->
         <dependency>
-            <groupId>com.pinenuts.boot</groupId>
+            <groupId>com.pinenuts</groupId>
             <artifactId>pinenuts-generator</artifactId>
         </dependency>
 
         <!--  demo模块  -->
         <dependency>
-            <groupId>com.pinenuts.boot</groupId>
+            <groupId>com.pinenuts</groupId>
             <artifactId>pinenuts-demo</artifactId>
         </dependency>
 
         <!--  工作流模块  -->
         <dependency>
-            <groupId>com.pinenuts.boot</groupId>
+            <groupId>com.pinenuts</groupId>
             <artifactId>pinenuts-workflow</artifactId>
         </dependency>
 
