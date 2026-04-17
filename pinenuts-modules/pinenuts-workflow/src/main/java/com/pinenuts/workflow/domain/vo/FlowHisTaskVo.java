@@ -4,7 +4,7 @@ import lombok.Data;
 import com.pinenuts.common.core.utils.DateUtils;
 import com.pinenuts.common.translation.annotation.Translation;
 import com.pinenuts.common.translation.constant.TransConstant;
-import com.pinenuts.warm.flow.core.enums.CooperateType;
+import org.dromara.warm.flow.core.enums.CooperateType;
 import com.pinenuts.workflow.common.constant.FlowConstant;
 
 import java.io.Serial;

@@ -2,7 +2,7 @@ package com.pinenuts.workflow.service;
 
 import com.pinenuts.common.mybatis.core.page.PageQuery;
 import com.pinenuts.common.mybatis.core.page.TableDataInfo;
-import com.pinenuts.warm.flow.orm.entity.FlowInstance;
+import org.dromara.warm.flow.orm.entity.FlowInstance;
 import com.pinenuts.workflow.domain.bo.FlowCancelBo;
 import com.pinenuts.workflow.domain.bo.FlowInstanceBo;
 import com.pinenuts.workflow.domain.bo.FlowInvalidBo;

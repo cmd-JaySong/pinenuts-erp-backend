@@ -6,8 +6,8 @@ import com.pinenuts.common.core.domain.event.ProcessDeleteEvent;
 import com.pinenuts.common.core.domain.event.ProcessEvent;
 import com.pinenuts.common.core.utils.SpringUtils;
 import com.pinenuts.common.tenant.helper.TenantHelper;
-import com.pinenuts.warm.flow.core.entity.Instance;
-import com.pinenuts.warm.flow.core.entity.Task;
+import org.dromara.warm.flow.core.entity.Instance;
+import org.dromara.warm.flow.core.entity.Task;
 import com.pinenuts.workflow.common.ConditionalOnEnable;
 import org.springframework.stereotype.Component;
 

@@ -2,7 +2,7 @@ package com.pinenuts.common.sms.config;
 
 import com.pinenuts.common.sms.core.dao.PlusSmsDao;
 import com.pinenuts.common.sms.handler.SmsExceptionHandler;
-import com.pinenuts.sms4j.api.dao.SmsDao;
+import org.dromara.sms4j.api.dao.SmsDao;
 import org.springframework.boot.autoconfigure.AutoConfiguration;
 import org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration;
 import org.springframework.context.annotation.Bean;

@@ -8,7 +8,7 @@ import com.pinenuts.common.core.domain.dto.StartProcessDTO;
 import com.pinenuts.common.core.domain.dto.StartProcessReturnDTO;
 import com.pinenuts.common.core.service.WorkflowService;
 import com.pinenuts.common.core.utils.StringUtils;
-import com.pinenuts.warm.flow.orm.entity.FlowInstance;
+import org.dromara.warm.flow.orm.entity.FlowInstance;
 import com.pinenuts.workflow.common.ConditionalOnEnable;
 import com.pinenuts.workflow.common.enums.MessageTypeEnum;
 import com.pinenuts.workflow.domain.FlowInstanceBizExt;

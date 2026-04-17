@@ -11,7 +11,7 @@ import com.pinenuts.common.log.enums.BusinessType;
 import com.pinenuts.common.mybatis.core.page.PageQuery;
 import com.pinenuts.common.mybatis.core.page.TableDataInfo;
 import com.pinenuts.common.web.core.BaseController;
-import com.pinenuts.warm.flow.core.service.InsService;
+import org.dromara.warm.flow.core.service.InsService;
 import com.pinenuts.workflow.common.ConditionalOnEnable;
 import com.pinenuts.workflow.domain.bo.FlowCancelBo;
 import com.pinenuts.workflow.domain.bo.FlowInstanceBo;

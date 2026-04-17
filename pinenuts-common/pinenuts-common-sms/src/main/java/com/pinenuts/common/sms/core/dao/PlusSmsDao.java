@@ -2,7 +2,7 @@ package com.pinenuts.common.sms.core.dao;
 
 import com.pinenuts.common.core.constant.GlobalConstants;
 import com.pinenuts.common.redis.utils.RedisUtils;
-import com.pinenuts.sms4j.api.dao.SmsDao;
+import org.dromara.sms4j.api.dao.SmsDao;
 
 import java.time.Duration;
 

@@ -2,9 +2,9 @@ package com.pinenuts.demo.controller;
 
 import lombok.RequiredArgsConstructor;
 import com.pinenuts.common.core.domain.R;
-import com.pinenuts.sms4j.api.SmsBlend;
-import com.pinenuts.sms4j.api.entity.SmsResponse;
-import com.pinenuts.sms4j.core.factory.SmsFactory;
+import org.dromara.sms4j.api.SmsBlend;
+import org.dromara.sms4j.api.entity.SmsResponse;
+import org.dromara.sms4j.core.factory.SmsFactory;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
