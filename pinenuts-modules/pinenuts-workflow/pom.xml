@@ -71,11 +71,11 @@
             <artifactId>pinenuts-common-security</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.pinenuts.warm</groupId>
+            <groupId>org.dromara.warm</groupId>
             <artifactId>warm-flow-mybatis-plus-sb3-starter</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.pinenuts.warm</groupId>
+            <groupId>org.dromara.warm</groupId>
             <artifactId>warm-flow-plugin-ui-sb-web</artifactId>
         </dependency>
     </dependencies>
