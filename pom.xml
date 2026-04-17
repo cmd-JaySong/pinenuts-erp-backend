@@ -120,7 +120,7 @@
 
             <!-- common 的依赖配置-->
             <dependency>
-                <groupId>com.pinenuts</groupId>
+                <groupId>com.pinenuts.boot</groupId>
                 <artifactId>pinenuts-common-bom</artifactId>
                 <version>${revision}</version>
                 <type>pom</type>
@@ -240,7 +240,7 @@
             </dependency>
             <!--短信sms4j-->
             <dependency>
-                <groupId>com.pinenuts.sms4j</groupId>
+                <groupId>org.dromara.sms4j</groupId>
                 <artifactId>sms4j-spring-boot-starter</artifactId>
                 <version>${sms4j.version}</version>
             </dependency>
@@ -327,32 +327,32 @@
             </dependency>
 
             <dependency>
-                <groupId>com.pinenuts</groupId>
+                <groupId>com.pinenuts.boot</groupId>
                 <artifactId>pinenuts-system</artifactId>
                 <version>${revision}</version>
             </dependency>
 
             <dependency>
-                <groupId>com.pinenuts</groupId>
+                <groupId>com.pinenuts.boot</groupId>
                 <artifactId>pinenuts-job</artifactId>
                 <version>${revision}</version>
             </dependency>
 
             <dependency>
-                <groupId>com.pinenuts</groupId>
+                <groupId>com.pinenuts.boot</groupId>
                 <artifactId>pinenuts-generator</artifactId>
                 <version>${revision}</version>
             </dependency>
 
             <dependency>
-                <groupId>com.pinenuts</groupId>
+                <groupId>com.pinenuts.boot</groupId>
                 <artifactId>pinenuts-demo</artifactId>
                 <version>${revision}</version>
             </dependency>
 
             <!--  工作流模块  -->
             <dependency>
-                <groupId>com.pinenuts</groupId>
+                <groupId>com.pinenuts.boot</groupId>
                 <artifactId>pinenuts-workflow</artifactId>
                 <version>${revision}</version>
             </dependency>
